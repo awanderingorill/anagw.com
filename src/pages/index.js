@@ -5,7 +5,7 @@ import Container from "../components/container"
 export default function About() {
   return (
     <Container>
-      <h1>Ana Giraldo-Wingler</h1>
+      <h1>Ana G-W</h1>
       <p class="story">
           I product manage 📕, design 🎨, and build 🔧, sometimes all at the same time.
       </p>
