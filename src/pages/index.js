@@ -5,9 +5,9 @@ import Container from "../components/container"
 export default function About() {
   return (
     <Container>
-      <h1>Ana G-W</h1>
+      <h1>🌹Ana G-W</h1>
       <p class="story">
-          I product manage 📕, design 🎨, and build 🔧, sometimes all at the same time.
+          I product manage, design, and build, sometimes all at the same time.
       </p>
       <p>
         From 2014-2018, I worked as a software developer doing full-stack work, mostly frontend.

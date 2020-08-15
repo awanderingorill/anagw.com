@@ -43,12 +43,16 @@ p.story::before{
 }
 
 p.currently {
-    font-weight: 700;
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 16pt;
     transform: rotate(-2.42deg);
     margin: 1.5em;
 }
 
 p.currently::before {
+    font-family: "Inter";
+    font-style: normal;
     content: "currently";
     position: absolute;
     left: -90px;
