@@ -8,8 +8,6 @@
     font-size: 3rem;
     min-width: 100vw;
     min-height: 100vh;
-    position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, #E2C8B9 0%, #FFFBD5 91.15%);
-  }
+    background: linear-gradient(180deg, #E4C3B5 0%, #FFF0A3 91.15%);  }
