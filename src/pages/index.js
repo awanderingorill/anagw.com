@@ -14,7 +14,7 @@ export default function About() {
         2020 has been a year of reflection for me, and I realized that I really miss building things hands-on.
       </p>
       <p class="currently">
-        I’m looking for a remote full-stack software engineering position focused on frontend. Let's talk! 🍝
+        I’m looking for a remote full-stack software engineering position focused on frontend. Let's talk! 💫
       </p>
       <p>
        <a href="mailto:agiraldow@gmail.com">agiraldow@gmail.com</a>
