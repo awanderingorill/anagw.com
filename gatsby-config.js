@@ -5,11 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [`gatsby-plugin-react-helmet`],
-  siteMetadata: {
-    title: `Gatsby`,
-    siteUrl: `https://www.gatsbyjs.org`,
-    description: `Blazing fast modern site generator for React`,
-  },
-}
+  plugins: [
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/src/fonts/`
+      }
+    }
+  ]
+};
