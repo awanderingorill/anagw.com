@@ -10,31 +10,32 @@ body {
 h1 {
     font-family: "Inter";
     color: black;
-    font-size: 40pt;
+    font-size: 30pt;
     display: inline-block;
     padding-bottom: 0;
-    border-bottom: 1px solid black;
-    margin: 1em 0 0.5em 0;
+    /* border-bottom: 1px solid black; */
+    margin: 4rem 0 0.5em 5rem;
+    z-index: 1000;
     font-weight: 500;
 }
 
-div {
+.gradient-circle {
     display: flex;
     min-height: 100vh;
     min-width: 100vh;
-    position: absolute;
+    position: fixed;
     align-items: center;
     align-self: center;
-    background: radial-gradient(50% 50% at 50% 50%, #B7B0FF 16.15%, rgba(174, 210, 175, 0.596273) 50%, rgba(255, 255, 255, 0) 100%);
+    /* background: radial-gradient(50% 50% at 50% 50%, #9896FF 16.15%, #E4C4B5 60.42%, rgba(174, 210, 175, 0.16) 86.98%, rgba(255, 255, 255, 0.16) 100%); */
 }
 
 p {
     font-family: "Inter";
     color: black;
-    font-size: 18pt;
-    max-width: 650px;
-    margin: 0.6em;
-    padding: 0 0.5em 0 0.5em;
+    font-size: 16pt;
+    max-width: 600px;
+    margin: 0.6em 0;
+    padding: 0 0.5em 0 5rem;
     line-height: 1.3em;
     position: relative;
     line-height: 1.4em;
@@ -45,7 +46,7 @@ a {
     border-bottom: 1px solid black;
     text-decoration: none;
 }
-
+/* 
 p.story::before{
     content: "story";
     position: absolute;
@@ -55,16 +56,14 @@ p.story::before{
     font-size: 9pt;
     font-weight: 700;
     transform: rotate(-90deg);
-}
+} */
 
 p.currently {
-    font-family: "Inter";
     font-weight: 700;
 }
 
-p.currently::before {
+/* p.currently::before {
     font-family: "Inter";
-    font-style: normal;
     content: "currently";
     position: absolute;
     left: -80px;
@@ -73,4 +72,4 @@ p.currently::before {
     font-size: 9pt;
     font-weight: 700;
     transform: rotate(-90deg);
-}
+} */
