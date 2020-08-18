@@ -121,6 +121,10 @@ p.mushrooms::before {
     transform: rotate(-90deg);
 }
 
+.mobile-description {
+    display: none;
+}
+
 @media (max-width: 82em) {
     p.mushrooms {
         position: relative;
@@ -133,6 +137,14 @@ p.mushrooms::before {
     }
 
     img {
-        max-width: initial;
+        max-width: 80vw;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .mobile-description {
+        display: inline-block;
     }
 }
