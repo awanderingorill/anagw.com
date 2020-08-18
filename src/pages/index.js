@@ -16,7 +16,7 @@ export default function About() {
         I’m looking for a remote full-stack software engineering position focused on frontend. Let's talk! 💫
       </p>
       <p>
-       <a href="mailto:agiraldow@gmail.com">agiraldow@gmail.com</a>
+        You can find me via <a href="mailto:agiraldow@gmail.com">email</a>, <a href="http://twitter.com/awanderingorill" target="new">Twitter</a>, and <a href="http://github.com/awanderingorill" target="new">GitHub</a>.
       </p>
     </Container>
   )
