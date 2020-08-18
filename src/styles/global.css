@@ -102,6 +102,7 @@ p.mushrooms {
     right: 0;
     max-width: 200px;
     font-size: 12pt;
+    margin-top: 4rem;
 }
 
 img {
@@ -146,5 +147,11 @@ p.mushrooms::before {
 
     .mobile-description {
         display: inline-block;
+    }
+}
+
+@media (max-width: 82em) {
+    p.mushrooms::before {
+        display: none;
     }
 }
