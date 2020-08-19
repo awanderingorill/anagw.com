@@ -31,10 +31,9 @@ h1 {
     font-size: 30pt;
     display: inline-block;
     padding-bottom: 0;
-    margin-top: 2rem;
     z-index: 1000;
     font-weight: 500;
-    margin: 4rem 2rem 0 2rem;
+    margin: 2rem 2rem 0 2rem;
 }
 
 p {
@@ -70,7 +69,15 @@ p.story::before{
 }
 
 p.currently {
-    text-shadow: 0 0 5px #fff500, 0 0 10px #fff500, 0 0 15px #fff500, 0 0 20px #fff500, 0 0 25px #fff500, 0 0 30px #fff500, 0 0 35px #fff500;
+    text-shadow:
+        -0.2rem -0.2rem 1rem #fff500,
+        0.2rem 0.2rem 1rem #fff500,
+        0 0 2rem #fff500,
+        0 0 4rem #fff500,
+        0 0 6rem #fff500,
+        0 0 8rem  #fff500,
+        0 0 10rem #fff500;
+        
 }
 
 p.currently::before {
@@ -102,7 +109,7 @@ p.mushrooms {
     right: 0;
     max-width: 200px;
     font-size: 12pt;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 img {
@@ -143,6 +150,7 @@ p.mushrooms::before {
 
     img {
         max-width: 80vw;
+        margin-bottom: 2rem;;
     }
 
     .description {
