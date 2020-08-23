@@ -19,13 +19,13 @@ export default () =>
           </p>
           <p class="gradient">
             <div class="mobile-description">
-              I've been into making CSS gradients lately. I'm not sure what I will use them for yet, but this is one of them!
+              I've been into making CSS gradients lately. This is one of them!
             </div>
             <div class="gradient-background">
               <div class="gradient-foreground"></div>
             </div>
             <div class="description">
-              I've been into making CSS gradients lately. I'm not sure what I will use them for yet, but this is one of them!
+              I've been into making CSS gradients lately. This is one of them!
             </div>
           </p>
         </Container>
