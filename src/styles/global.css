@@ -1,207 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
 @font-face {
-    font-family: "Perpetua";
+    font-family: "Roslindale";
     font-weight: 400;
     font-style: normal;
-    src: url("../fonts/5742382/64cc7f58-9007-4478-82db-38f3af965d61.woff") format("woff"), url("../fonts/5742382/7182d2b0-9130-476c-a723-5118b396d901.woff2") format("woff2");
+    src: url("../fonts/Roslindale/RoslindaleText-Regular.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Maria";
+    font-family: "Roslindale Italic";
     font-weight: 400;
     font-style: normal;
-    src: url("../fonts/Maria/maria.woff") format("woff"), url("../fonts/Maria/maria.woff2") format("woff2");
+    src: url("../fonts/Roslindale/RoslindaleText-Italic.woff") format("woff");
     font-display: swap;
-}
-
-body {
-    margin: 0;
-}
-
-h1 {
-    font-family: "Perpetua";
-    color: black;
-    font-size: 30pt;
-    display: inline-block;
-    padding-bottom: 0;
-    z-index: 1000;
-    font-weight: 500;
-    margin: 2rem 2rem 0 2rem;
-}
-
-p {
-    font-family: "Maria";
-    color: black;
-    font-size: 20pt;
-    max-width: 750px;
-    margin: 0.6em 0;
-    position: relative;
-    line-height: 1.4em;
-    margin: 2rem 2rem 0 2rem;
-}
-
-a {
-    font-family: "Perpetua";
-    font-size: 18pt;
-    color: black;
-    text-decoration: none;
-    border-bottom: 1px solid black;
-}
-
-p.about::before{
-    content: "about";
-    font-family: "Perpetua";
-    position: absolute;
-    left: -60px;
-    top: 10px;
-    text-transform: uppercase;
-    font-size: 9pt;
-    font-weight: 700;
-    transform: rotate(-90deg);
-}
-
-p.currently {
-    text-shadow: 0px 0px 30px #ffe000;
-}
-
-p.currently::before {
-    content: "currently";
-    font-family: "Perpetua";
-    position: absolute;
-    left: -80px;
-    top: 20px;
-    text-transform: uppercase;
-    font-size: 9pt;
-    font-weight: 700;
-    transform: rotate(-90deg);
-}
-
-p.contact::before {
-    content: "contact";
-    font-family: "Perpetua";
-    position: absolute;
-    left: -70px;
-    top: 20px;
-    text-transform: uppercase;
-    font-size: 9pt;
-    font-weight: 700;
-    transform: rotate(-90deg);
-}
-
-p.gradient {
-    position: absolute;
-    right: 0;
-    max-width: 200px;
-    font-size: 12pt;
-    margin-top: 2rem;
-}
-
-img {
-    max-width: 200px;
-    margin-top: 1rem;
-}
-
-img:hover {
-    transform: rotate(4deg);
-}
-
-p.gradient::before {
-    content: "miscellaneous";
-    font-family: "Perpetua";
-    position: absolute;
-    left: -70px;
-    top: 40px;
-    text-transform: uppercase;
-    font-size: 9pt;
-    transform: rotate(-90deg);
-}
-
-.mobile-description {
-    display: none;
-    line-height: 1.4em;
 }
 
 @keyframes foreground-pulse {
     to {
-        transform: scale(1.3);
+        transform: scale(1.1);
     }
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: "Roslindale";
+    color: white;
+    font-size: 22pt;
+    background: #211d1d;
+}
+
+h1 {
+    font-size: 22pt;
+    font-style: italic;
+    font-weight: 500;
+}
+
+p {
+    font-size: 22pt;
+}
+
+a {
+    font-family: "Roslindale Italic";
+    color: white;
+    /* font-weight: 700; */
+    text-decoration: none;
+    font-style: italic;
+    line-height: 1.4em;
+    /* border-bottom: 2px solid white; */
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+    /* text-decoration: underline; */
+}
+
+.first-column, .second-column {
+    max-width: 40%;
+    padding: 2rem 5rem;
+}
+
+.second-column {
+    padding-left: 2rem;
+}
+
+.about span {
+    font-weight: 700;
+}
+
+.gradient {
+    margin: 1em 0;
+}
+
+.gradient span {
+    font-style: italic;
 }
 
 .gradient-background {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 200px;
-    margin-bottom: 1rem;
-    background: linear-gradient(180deg, #E4C3B5 0%, #FFF0A3 100%);
+    height: 500px;
+    width: 500px;
+    margin: 2rem 0;
+    background: linear-gradient(180deg, #211d1d 0%, #FFFFFF 90%);
     animation: background-pulse 1s ease-in-out infinite alternate;
 }
 
 .gradient-foreground {
     height: 75%;
     width: 75%;
-    background: radial-gradient(50% 50% at 50% 50%, #4737FF 0%, rgba(82, 128, 87, 0.5) 60%, rgba(166, 211, 170, 0) 100%);
-    /* background: radial-gradient(50% 50% at 50% 50%, #5546FF 45.31%, rgba(34, 118, 32, 0.29) 73.44%, rgba(166, 211, 170, 0) 100%); */
-    /* background: radial-gradient(50% 50% at 50% 50%, #4737FF 40.1%, rgba(166, 211, 170, 0) 100%); */
-    /* background: radial-gradient(50% 50% at 50% 50%, #4737FF 0%, rgba(166, 211, 170, 0.4) 100%); */
+    background: radial-gradient(50% 50% at 50% 50%, #211d1d 45.31%, #9B9B9B 73.44%, rgba(225, 225, 225, 0) 100%);
     animation: foreground-pulse 1s ease-in-out infinite alternate;
 }
 
 @media (max-width: 82em) {
-    p.gradient {
-        position: relative;
-        max-width: 750px;
-        font-size: 20pt;
-    }
-
-    .gradient-background {
-        height: 600px;
-        width: 600px;
-        margin-bottom: 2rem;
-    }
-
-    p.gradient::before {
-        left: -90px;
-        top: 35px;
-    }
-
-    img {
-        max-width: 80vw;
-        margin-bottom: 2rem;;
-    }
-
-    .description {
-        display: none;
-    }
-
-    .mobile-description {
-        display: inline-block;
-        margin-bottom: 2rem;
-    }
+   .container {
+       flex-direction: column;
+   }
 }
 
 @media (max-width: 43em) {
-    h1 {
-        font-size: 25pt;
-    }
-
-    p, a, .mobile-description {
-        font-size: 16pt;
-    }
-
-    p.gradient::before {
-        display: none;
-    }
-
-    .gradient-background {
-        height: 80vw;
-        width: 80vw;
-    }
+    
 }
