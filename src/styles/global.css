@@ -41,7 +41,6 @@ p {
     font-size: 20pt;
     max-width: 750px;
     margin: 0.6em 0;
-    line-height: 1.3em;
     position: relative;
     line-height: 1.4em;
     margin: 2rem 2rem 0 2rem;
@@ -125,6 +124,7 @@ p.gradient::before {
 
 .mobile-description {
     display: none;
+    line-height: 1.4em;
 }
 
 @keyframes foreground-pulse {
@@ -194,7 +194,7 @@ p.gradient::before {
         font-size: 25pt;
     }
 
-    p, a {
+    p, a, .mobile-description {
         font-size: 16pt;
     }
 
