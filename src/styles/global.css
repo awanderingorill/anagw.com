@@ -69,13 +69,13 @@ p.story::before{
 
 p.currently {
     text-shadow:
-        -0.2rem -0.2rem 1rem #fff500,
-        0.2rem 0.2rem 1rem #fff500,
-        0 0 2rem #fff500,
-        0 0 4rem #fff500,
-        0 0 6rem #fff500,
-        0 0 8rem  #fff500,
-        0 0 10rem #fff500;
+        -0.2rem -0.2rem 1rem #f7df64,
+        0.2rem 0.2rem 1rem #f7df64,
+        0 0 2rem #f7df64,
+        0 0 4rem #f7df64,
+        0 0 6rem #f7df64,
+        0 0 8rem  #f7df64,
+        0 0 10rem #f7df64;
         
 }
 
@@ -83,7 +83,7 @@ p.currently::before {
     content: "currently";
     font-family: "Perpetua";
     position: absolute;
-    left: -75px;
+    left: -80px;
     top: 20px;
     text-transform: uppercase;
     font-size: 9pt;
@@ -161,8 +161,24 @@ p.mushrooms::before {
     }
 }
 
-@media (max-width: 82em) {
+@media (max-width: 43em) {
     p.mushrooms::before {
         display: none;
     }
+}
+
+.gradient-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 1rem;
+    background: linear-gradient(180deg, #E4C3B5 0%, #FFF0A3 100%);
+}
+
+.gradient-foreground {
+    height: 75%;
+    width: 75%;
+    background: radial-gradient(50% 50% at 50% 50%, #4737FF 0%, rgba(166, 211, 170, 0.4) 100%);
 }
