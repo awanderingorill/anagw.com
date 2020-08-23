@@ -55,8 +55,8 @@ a {
     border-bottom: 1px solid black;
 }
 
-p.story::before{
-    content: "story";
+p.about::before{
+    content: "about";
     font-family: "Perpetua";
     position: absolute;
     left: -60px;
@@ -190,6 +190,14 @@ p.gradient::before {
 }
 
 @media (max-width: 43em) {
+    h1 {
+        font-size: 25pt;
+    }
+
+    p, a {
+        font-size: 16pt;
+    }
+
     p.gradient::before {
         display: none;
     }
