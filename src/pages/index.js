@@ -16,12 +16,16 @@ export default function About() {
       <p class="contact">
         Get in touch via <a href="mailto:agiraldow@gmail.com">email</a>. You can find me on <a href="http://twitter.com/awanderingorill" target="_blank">Twitter</a> and <a href="http://github.com/awanderingorill" target="_blank">GitHub</a>. I also post 🎵 on <a href="http://soundcloud.com/verita-gomez" target="_blank">SoundCloud</a>  and 📷 on <a href="http://instagram.com/anita.gw" target="_blank">Instagram</a>.
       </p>
-      <p class="mushrooms">
-        <div class="mobile-description">I've been really into making CSS gradients lately. I'm not sure what I will use them for yet, but this is one of them.</div>
+      <p class="gradient">
+        <div class="mobile-description">
+          I've been really into making CSS gradients lately. I'm not sure what I will use them for yet, but this is one of them.
+        </div>
         <div class="gradient-background">
           <div class="gradient-foreground"></div>
         </div>
-        <div class="description">I've been really into making CSS gradients lately. I'm not sure what I will use them for yet, but this is one of them!</div>
+        <div class="description">
+          I've been really into making CSS gradients lately. I'm not sure what I will use them for yet, but this is one of them!
+        </div>
       </p>
     </Container>
   )

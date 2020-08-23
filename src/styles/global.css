@@ -75,8 +75,7 @@ p.currently {
         0 0 4rem #f7df64,
         0 0 6rem #f7df64,
         0 0 8rem  #f7df64,
-        0 0 10rem #f7df64;
-        
+        0 0 10rem #f7df64;      
 }
 
 p.currently::before {
@@ -103,7 +102,7 @@ p.contact::before {
     transform: rotate(-90deg);
 }
 
-p.mushrooms {
+p.gradient {
     position: absolute;
     right: 0;
     max-width: 200px;
@@ -120,12 +119,12 @@ img:hover {
     transform: rotate(4deg);
 }
 
-p.mushrooms::before {
+p.gradient::before {
     content: "miscellaneous";
     font-family: "Perpetua";
     position: absolute;
     left: -70px;
-    top: 55px;
+    top: 40px;
     text-transform: uppercase;
     font-size: 9pt;
     transform: rotate(-90deg);
@@ -133,38 +132,6 @@ p.mushrooms::before {
 
 .mobile-description {
     display: none;
-}
-
-@media (max-width: 82em) {
-    p.mushrooms {
-        position: relative;
-        max-width: 750px;
-        font-size: 20pt;
-    }
-
-    p.mushrooms::before {
-        left: -90px;
-        top: 35px;
-    }
-
-    img {
-        max-width: 80vw;
-        margin-bottom: 2rem;;
-    }
-
-    .description {
-        display: none;
-    }
-
-    .mobile-description {
-        display: inline-block;
-    }
-}
-
-@media (max-width: 43em) {
-    p.mushrooms::before {
-        display: none;
-    }
 }
 
 .gradient-background {
@@ -181,4 +148,48 @@ p.mushrooms::before {
     height: 75%;
     width: 75%;
     background: radial-gradient(50% 50% at 50% 50%, #4737FF 0%, rgba(166, 211, 170, 0.4) 100%);
+}
+
+@media (max-width: 82em) {
+    p.gradient {
+        position: relative;
+        max-width: 750px;
+        font-size: 20pt;
+    }
+
+    .gradient-background {
+        height: 600px;
+        width: 600px;
+        margin-bottom: 2rem;
+    }
+
+    p.gradient::before {
+        left: -90px;
+        top: 35px;
+    }
+
+    img {
+        max-width: 80vw;
+        margin-bottom: 2rem;;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .mobile-description {
+        display: inline-block;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 43em) {
+    p.gradient::before {
+        display: none;
+    }
+
+    .gradient-background {
+        height: 80vw;
+        width: 80vw;
+    }
 }
