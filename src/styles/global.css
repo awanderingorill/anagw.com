@@ -27,6 +27,7 @@ body {
     color: white;
     font-size: 22pt;
     background: #211d1d;
+    margin: 0;
 }
 
 h1 {
@@ -94,11 +95,27 @@ a:hover {
 }
 
 @media (max-width: 82em) {
-   .container {
-       flex-direction: column;
-   }
+    .first-column, .second-column {
+        max-width: 50%;
+    }
+
+    .second-column {
+        padding-left: 5rem;
+    }
 }
 
 @media (max-width: 43em) {
-    
+    .first-column, .second-column {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .gradient {
+        margin: 0;
+    }
+
+    .gradient-background {
+        height: 300px;
+        width: 300px;
+    }
 }

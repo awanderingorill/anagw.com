@@ -5,3 +5,10 @@
     top: 0;
     left: 0;
   }
+
+@media (max-width: 82em) {
+    .container {
+        flex-direction: column;
+    }
+}
+ 
