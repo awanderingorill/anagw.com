@@ -19,7 +19,6 @@ export default () =>
               </div>
             </div>
         </div>
-        <div class="scroll">👇👇👇</div>
       </div>
       <div class="site-content">
         <p>
