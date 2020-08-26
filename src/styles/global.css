@@ -105,9 +105,17 @@ a:hover {
 }
 
 @media (max-width: 43em) {
+    .contact {
+        margin-bottom: 0;
+    }
+    
     .first-column, .second-column {
         max-width: 100%;
         padding: 1rem;
+    }
+    
+    .first-column {
+        padding-bottom: 0;
     }
 
     .gradient {
@@ -115,7 +123,7 @@ a:hover {
     }
 
     .gradient-background {
-        height: 300px;
-        width: 300px;
+        height: 90vw;
+        width: 90vw;
     }
 }
