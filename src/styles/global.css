@@ -43,16 +43,15 @@ p {
 a {
     font-family: "Roslindale Italic";
     color: white;
-    /* font-weight: 700; */
     text-decoration: none;
     font-style: italic;
     line-height: 1.4em;
-    /* border-bottom: 2px solid white; */
+    text-shadow: 2px 2px 20px #ffffff;
+
 }
 
 a:hover {
-    border-bottom: 2px solid white;
-    /* text-decoration: underline; */
+    text-shadow: 2px 2px 30px #ffffff;
 }
 
 .first-column, .second-column {
@@ -97,6 +96,7 @@ a:hover {
 @media (max-width: 82em) {
     .first-column, .second-column {
         max-width: 50%;
+        padding: 0 5rem;
     }
 
     .second-column {
