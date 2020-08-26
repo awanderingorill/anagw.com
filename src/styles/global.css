@@ -41,10 +41,9 @@ p {
 }
 
 a {
-    font-family: "Roslindale Italic";
+    font-family: "Roslindale";
     color: white;
     text-decoration: none;
-    font-style: italic;
     line-height: 1.4em;
     text-shadow: 2px 2px 20px #ffffff;
 
