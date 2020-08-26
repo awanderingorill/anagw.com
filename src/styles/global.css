@@ -127,12 +127,28 @@ a:hover {
 
 @media (max-width: 82em) {
     .first-column, .second-column {
-        max-width: 50%;
+        max-width: 70%;
         padding: 0 5rem;
     }
 
     .second-column {
         padding-left: 5rem;
+    }
+
+    .face-plate {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .site-content p {
+        max-width: 70%;
+    }
+
+    .gradient-background {
+        height: 70vw;
+        width: 70vw;
     }
 }
 
