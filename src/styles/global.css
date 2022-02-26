@@ -1,128 +1,83 @@
 @font-face {
-    font-family: "Roslindale";
+    font-family: "ITC Clearface Std";
     font-weight: 400;
     font-style: normal;
-    src: url("../fonts/Roslindale/RoslindaleText-Regular.woff") format("woff");
+    src: url("../fonts/ITC-Clearface-Std/ClearfaceStd-Regular.woff") format("woff");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Roslindale Italic";
+    font-family: "ITC Clearface Std Italic";
     font-weight: 400;
     font-style: normal;
-    src: url("../fonts/Roslindale/RoslindaleText-Italic.woff") format("woff");
+    src: url("../fonts/ITC-Clearface-Std/ClearfaceStd-Italic.woff") format("woff");
     font-display: swap;
-}
-
-@keyframes foreground-pulse {
-    to {
-        transform: scale(1.1);
-    }
 }
 
 body {
     display: flex;
     flex-direction: row;
-    font-family: "Roslindale";
-    color: white;
-    font-size: 22pt;
-    background: #211d1d;
+    font-family: "ITC Clearface Std";
+    color: #000000;
+    font-size: 22px;
+    background: #FFFFFF;
     margin: 0;
 }
 
 h1 {
-    font-size: 22pt;
-    font-style: italic;
-    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 200px;
+    padding: 0;
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+    margin: 0;
 }
 
+img {
+    width: 200px;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 40rem;
+    margin: 0 0 4rem 0;
+}
+
+
+
 p {
-    font-size: 22pt;
+    font-size: 14px;
+    max-width: 25rem;
+    margin: 0 0 1rem 0;
 }
 
 a {
-    font-family: "Roslindale";
-    color: white;
+    color: #000000;
     text-decoration: none;
     line-height: 1.4em;
     text-shadow: 2px 2px 20px #ffffff;
 
 }
 
-a:hover {
-    text-shadow: 2px 2px 30px #ffffff;
-}
-
-.first-column, .second-column {
-    max-width: 40%;
-    padding: 2rem 5rem;
-}
-
-.second-column {
-    padding-left: 2rem;
-}
-
-.about span {
-    font-weight: 700;
-}
-
-.gradient {
-    margin: 1em 0;
-}
-
-.gradient span {
-    font-style: italic;
-}
-
-.gradient-background {
+.header-wrapper {
     display: flex;
-    align-items: center;
+    flex-flow: row;
     justify-content: center;
-    height: 40vw;
-    width: 40vw;
-    margin: 2rem 0;
-    background: linear-gradient(180deg, #211d1d 0%, #FFFFFF 90%);
-    animation: background-pulse 1s ease-in-out infinite alternate;
 }
 
-.gradient-foreground {
-    height: 75%;
-    width: 75%;
-    background: radial-gradient(50% 50% at 50% 50%, #211d1d 45.31%, #9B9B9B 73.44%, rgba(225, 225, 225, 0) 100%);
-    animation: foreground-pulse 1s ease-in-out infinite alternate;
+span {
+    transform: rotate(-10deg);
+    text-transform: uppercase;
+    position: relative;
+    left: -90px;
+
 }
 
-.face-plate {
-    display: flex;
-    padding-top: 2rem;
-    width: 100vw;
-    height: 100vh;
-}
-
-.first-column {
-    padding-top: 4rem;
-}
-
-.site-content {
-    display: flex;
-    padding: 0;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.site-content p {
-    max-width: 50%;
-}
-
-.scroll {
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: 10px;
-    font-size: 20pt;
-}
 
 @media (max-width: 82em) {
     .first-column, .second-column {
