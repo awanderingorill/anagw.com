@@ -25,7 +25,7 @@ export default () =>
 
       <p>
         <span>Music</span>
-      After reading Artist’s Way, I started making electronic music, mostly in Ableton. A lot of it is in Spanish, but I recently made a song in English and am excited to explore that more (even though it feels more vulnerable somehow). Check me out on <a href="https://soundcloud.com/verita-gomez">SoundCloud</a>. I love collabs and have done a fair amount of them both via Zoom and IRL, so if you want to make music together, please get in touch!
+      After reading Artist’s Way, I started making electronic music, mostly in Ableton. A lot of it is in Spanish, but I recently made a song in English and am excited to explore that more (even though it feels more vulnerable somehow). Check me out on <a href="https://soundcloud.com/verita-gomez" target="new">SoundCloud</a>. I love collabs and have done a fair amount of them both via Zoom and IRL, so if you want to make music together, please get in touch!
       </p>
     </Container>
   </>
