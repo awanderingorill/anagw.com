@@ -11,7 +11,7 @@ export default () =>
         <img src="./img/IMG_8320-V2.jpg" alt="Ana Giraldo-Wingler"></img>
       </div>
       <h2>
-      A complex she/her. I recently moved to Philadelphia and was in NYC for eight years before that. I’m half Colombian and half gringa—lived in Bogotá until the tender age of 10, and go back often. I spent the rest of my childhood in central New Jersey in the ‘00s, still an emo kid at heart. Now I work, I read tarot, and I make music. I’m a Capricorn, so let’s start with work.      </h2>
+      A complex she/her. I recently moved to Philadelphia and was in NYC for eight years before that. I’m half Colombian and half gringa. I work, I read tarot, and I make music. Since I'm a Capricorn, let’s start with work.     </h2>
       
       <p>
         <span>Work</span>
