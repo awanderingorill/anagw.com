@@ -15,17 +15,17 @@ export default () =>
       
       <p>
         <span>Work</span>
-      I’m a Staff Product Manager at Walmart on a team that de-risks potentially high value initiatives through experimentation and prototyping. The intersection of Agile software development, lean methodologies, and design thinking fascinates me. No, actually. I nerd out on this stuff. I love helping others be productive and balancing customer needs/business requirements—always backed by data (qual and quant!). I’ll never not be on my soapbox about UX research and love a good design studio.
+      I’m a <a href="https://www.linkedin.com/in/ana-giraldo-wingler-07b87133/" target="new">Staff Product Manager at Walmart</a> on a team that de-risks potentially high value initiatives through experimentation and prototyping. The intersection of Agile software development, lean methodologies, and design thinking fascinates me. No, actually. I nerd out on this stuff. I’ll never not be on my soapbox about UX research and love a good design studio.
       </p>
 
       <p>
         <span>Tarot</span>
-      I’m also an experienced tarot reader. To me, the tarot is a tool that helps bring into focus things we often already knew but hadn’t acknowledged or noticed we knew. I offer 30-minute and one-hour virtual readings, and they’re totally worth it. You can book me either through Calendly, or on the Ritual Shoppe website.
+      I’m also an experienced tarot reader. To me, the tarot is a tool that helps bring into focus things we often already knew but hadn’t acknowledged or noticed we knew. I offer 30-minute and one-hour virtual readings, and they’re totally worth it. You can book me either through <a href="https://calendly.com/ana-gw" target="new">Calendly</a>, or on the <a href="https://ritualshoppe.com/collections/offerings-and-events/products/tarot-readings-with-anna" target="new">Ritual Shoppe website</a>.
       </p>
 
       <p>
         <span>Music</span>
-      After reading Artist’s Way, I started making electronic music, mostly in Ableton. A lot of it is in Spanish, but I recently made a song in English and am excited to explore that more (even though it feels more vulnerable somehow). Check me out on SoundCloud. I love collabs and have done a fair amount of them both via Zoom and IRL, so if you want to make music together, please get in touch!
+      After reading Artist’s Way, I started making electronic music, mostly in Ableton. A lot of it is in Spanish, but I recently made a song in English and am excited to explore that more (even though it feels more vulnerable somehow). Check me out on <a href="https://soundcloud.com/verita-gomez">SoundCloud</a>. I love collabs and have done a fair amount of them both via Zoom and IRL, so if you want to make music together, please get in touch!
       </p>
     </Container>
   </>
