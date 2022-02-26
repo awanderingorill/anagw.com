@@ -10,5 +10,6 @@
 @media (max-width: 82em) {
     .container {
         flex-direction: column;
+        min-width: auto;
     }
 }
