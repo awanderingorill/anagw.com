@@ -90,8 +90,8 @@ span {
 
 @media (max-width: 43em) {
     span {
-        left: -30px;
         top: -30px;
+        left: 0;
         display: block;
     }
 
@@ -109,5 +109,9 @@ span {
 
     .header-wrapper {
         flex-flow: column;
+    }
+
+    p {
+        margin: 0 0 2rem 0;
     }
 }
