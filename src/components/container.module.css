@@ -13,3 +13,10 @@
         min-width: auto;
     }
 }
+
+@media (max-width: 43em) {
+    .container {
+        padding: 2rem 4rem;
+        max-width: 70vw;
+    }
+}
