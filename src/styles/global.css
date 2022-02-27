@@ -34,6 +34,7 @@ h1 {
     left: 4rem;
     top: 4rem;
     margin: 0;
+    transform: rotate(-10deg);
 }
 
 img {
@@ -76,6 +77,9 @@ span {
     text-transform: uppercase;
     position: relative;
     left: -90px;
+    left: -100px;
+    display: block;
+    top: -20px;
 
 }
 
@@ -86,7 +90,9 @@ span {
 
 @media (max-width: 43em) {
     span {
-        left: -50px;
+        left: -30px;
+        top: -30px;
+        display: block;
     }
 
     h1 {
