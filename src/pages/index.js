@@ -11,9 +11,9 @@ export default () =>
         <img src="./img/IMG_8320-V2.jpg" alt="Ana Giraldo-Wingler"></img>
       </div>
       <h2>
-      A complex she/her. I recently moved to Philadelphia and was in NYC for eight years before that. I’m half Colombian and half gringa. I work, I read tarot, and I make music. Since I'm a Capricorn, let’s start with work.     </h2>
+      A complex she/her. I recently moved to Philadelphia and was in NYC for eight years before that. I’m half Colombian and half gringa. I work, I read tarot, and I make music.     </h2>
       
-      <p>
+      {/* <p>
         <span>Work</span>
       I’m a <a href="https://www.linkedin.com/in/ana-giraldo-wingler-07b87133/" target="new">Staff Product Manager at Walmart</a> on a team that de-risks potentially high value initiatives through experimentation and prototyping. The intersection of Agile software development, lean methodologies, and design thinking fascinates me. No, actually. I nerd out on this stuff. I’ll never not be on my soapbox about UX research and love a good design studio.
       </p>
@@ -26,6 +26,6 @@ export default () =>
       <p>
         <span>Music</span>
       After reading Artist’s Way, I started making electronic music, mostly in Ableton. A lot of it is in Spanish, but I recently made a song in English and am excited to explore that more (even though it feels more vulnerable somehow). Check me out on <a href="https://soundcloud.com/verita-gomez" target="new">SoundCloud</a>. I love collabs and have done a fair amount of them both via Zoom and IRL, so if you want to make music together, please get in touch!
-      </p>
+      </p> */}
     </Container>
   </>
