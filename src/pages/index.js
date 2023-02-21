@@ -11,7 +11,7 @@ export default () =>
         <img src="./img/IMG_8320-V2.jpg" alt="Ana Giraldo-Wingler"></img>
       </div>
       <h2>
-      A complex she/her. I recently moved to Philadelphia and was in NYC for eight years before that. I’m half Colombian and half gringa. I work, I read tarot, and I make music.     </h2>
+      She/her   </h2>
       
       {/* <p>
         <span>Work</span>
